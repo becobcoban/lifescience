@@ -5,7 +5,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<iframe class="about-content-video" width="750" height="420" src="https://www.youtube.com/embed/UK9Mn30Ivkc" frameborder="0" allowfullscreen></iframe>
+					<h1 class="heading">PROFILE PROBE, PROGRAM</h1>
+					<div class="about-content-video">
+						<iframe width="100%" src="https://www.youtube.com/embed/UK9Mn30Ivkc" frameborder="0" allowfullscreen></iframe>
+					</div>
 					<div class="about-content-description">
 						<p>LifeScience offers you an advanced approach to health and wellness through the LifeScience PRO System.</p>
 						<p>
@@ -79,64 +82,52 @@
 		<div class="container">
 			<h1 class="heading about-team-heading">OUR MEDICAL PRACTITIONERS</h1>
 			<div class="row">
-				<div class="col-sm-4 col-md-3">
+				<div class="col-xs-6 col-sm-4 col-md-3">
 					<div class="about-team-member">
 						<img src="public/img/team-member4.jpg" alt="Jane Doe">
 						<span class="about-team-inline"></span>
-						<p>
-							Jane Doe <br>
-							Senior Medical Consultant
-						</p>
+						<div class="about-team-name">Jane Doe</div>
+						<div class="about-team-position">Senior Medical Consultant</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-md-3">
+				<div class="col-xs-6 col-sm-4 col-md-3">
 					<div class="about-team-member">
 						<img src="public/img/team-member5.jpg" alt="Jane Doe">
 						<span class="about-team-inline"></span>
-						<p>
-							Jane Doe <br>
-							Senior Medical Consultant
-						</p>
+						<div class="about-team-name">Jane Doe</div>
+						<div class="about-team-position">Senior Medical Consultant</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-md-3">
+				<div class="col-xs-6 col-sm-4 col-md-3">
 					<div class="about-team-member">
 						<img src="public/img/team-member6.jpg" alt="Jane Doe">
 						<span class="about-team-inline"></span>
-						<p>
-							Jane Doe <br>
-							Senior Medical Consultant
-						</p>
+						<div class="about-team-name">Jane Doe</div>
+						<div class="about-team-position">Senior Medical Consultant</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-md-3">
+				<div class="col-xs-6 col-sm-4 col-md-3">
 					<div class="about-team-member">
 						<img src="public/img/team-member7.jpg" alt="John Doe">
 						<span class="about-team-inline"></span>
-						<p>
-							John Doe <br>
-							Senior Medical Consultant
-						</p>
+						<div class="about-team-name">John Doe</div>
+						<div class="about-team-position">Senior Medical Consultant</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-md-3">
+				<div class="col-xs-6 col-sm-4 col-md-3">
 					<div class="about-team-member">
 						<img src="public/img/team-member8.jpg" alt="Jane Doe">
 						<span class="about-team-inline"></span>
-						<p>
-							Jane Doe <br>
-							Senior Medical Consultant
-						</p>
+						<div class="about-team-name">Jane Doe</div>
+						<div class="about-team-position">Senior Medical Consultant</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-md-3">
+				<div class="col-xs-6 col-sm-4 col-md-3">
 					<div class="about-team-member">
 						<img src="public/img/team-member9.jpg" alt="John Doe">
 						<span class="about-team-inline"></span>
-						<p>
-							John Doe <br>
-							Senior Medical Consultant
-						</p>
+						<div class="about-team-name">John Doe</div>
+						<div class="about-team-position">Senior Medical Consultant</div>
 					</div>
 				</div>
 			</div>

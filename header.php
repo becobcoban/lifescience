@@ -26,52 +26,65 @@
     </head>
     <body>
     	<a class="live-chat" href="#">
-    		<img src="public/img/live-chat.png" alt="LIVE CHAT">
+    		<img class="live-chat__image" src="public/img/live-chat.png" alt="LIVE CHAT">
     	</a><!-- /.live-chat -->
     	<header class="header">
     		<div class="container">
     			<div class="row">
-    				<div class="col-md-4">
+    				<div class="col-xs-12 col-sm-12 col-md-12">
 		    			<a class="header-logo" href="index.php">
 		    				<img class="header-logo__image" src="public/img/logo.png" alt="Life Science">
 		    			</a><!-- /.header-logo -->
-		    		</div>
-    				<div class="col-md-8">
+						<a class="btn btn--book hidden-md hidden-lg" href="#">Book an Appointment</a>
 						<nav class="header-nav">
-							<div class="col-md-12">
-								<ul class="header-menu header-menu--small">
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="#">Your Health Digest</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="faqs.php">FAQs</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="feedback.php">Feedback</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link btn btn--book" href="">Book an Appointment</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-12">
-								<ul class="header-menu">
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="index.php">Home</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="about.php">About</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="programs.php">Programs</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="#">Press</a>
-									</li>
-									<li class="header-menu__item">
-										<a class="header-menu__link" href="#">My Account</a>
-									</li>
-								</ul>
+							<a class="hidden-md hidden-lg header-toggle" data-toggle="off" href="javascript:void(0);">
+								<span class="header-hamburger"></span>
+							</a><!-- /.header-toggle -->
+							<div class="row">
+								<div class="col-md-12 hidden-xs hidden-sm">
+									<ul class="header-menu header-menu--small">
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="#">Your Health Digest</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="faqs.php">FAQs</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="feedback.php">Feedback</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link btn btn--book" href="#">Book an Appointment</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-12">
+									<ul class="header-menu">
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="index.php">Home</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="about.php">About</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="programs.php">Programs</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="#">Press</a>
+										</li>
+										<li class="header-menu__item">
+											<a class="header-menu__link" href="#">My Account</a>
+										</li>
+										<li class="header-menu__item hidden-md hidden-lg">
+											<a class="header-menu__link" href="#">Your Health Digest</a>
+										</li>
+										<li class="header-menu__item hidden-md hidden-lg">
+											<a class="header-menu__link" href="faqs.php">FAQs</a>
+										</li>
+										<li class="header-menu__item hidden-md hidden-lg">
+											<a class="header-menu__link" href="feedback.php">Feedback</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</nav><!-- /.header-nav -->
 					</div>

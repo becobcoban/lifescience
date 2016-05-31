@@ -4,18 +4,20 @@
 					<div class="col-md-12">
 						<h1 class="heading newsletter-heading">OUR NEWSLETTER</h1>
 						<div class="newsletter-description">Get updates delivered straight to your inbox!</div>
-						<form class="form form--newsletter" action="">
-							<div class="form-group">
-								<input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name">
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name">
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" id="email" name="email" placeholder="Email">
-							</div>
-							<div class="form-group">
-								<button class="btn btn--subscribe" id="subscribe">SUBSCRIBE</button>
+						<form class="form form--newsletter" action="#">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-3 form-group">
+									<input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-3 form-group">
+									<input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-3 form-group">
+									<input type="text" class="form-control" id="email" name="email" placeholder="Email">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-3 form-group">
+									<button class="btn btn--subscribe" id="subscribe">SUBSCRIBE</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -26,83 +28,62 @@
 			<div class="container">
 				<div class="row">
 					<nav class="footer-nav">
-						<div class="col-md-2">
-							<h2 class="heading footer-heading">HOME</h2>
-							<ul class="footer-menu">
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Quick Health Test</a>
-								</li>
-							</ul>
+						<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="footer-divider">
+								<h2 class="heading footer-heading footer-toggle" data-shown="no">HOME</h2>
+								<ul class="footer-menu">
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Quick Health Test</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-md-2">
-							<h2 class="heading footer-heading">ABOUT</h2>
-							<ul class="footer-menu">
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Vision and Mission</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Our Approach</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Our Medical Team</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Our Facilities</a>
-								</li>
-							</ul>
+						<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="footer-divider">
+								<h2 class="heading footer-heading footer-toggle" data-shown="no">ABOUT</h2>
+								<ul class="footer-menu">
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Vision and Mission</a>
+									</li>
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Our Approach</a>
+									</li>
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Our Medical Team</a>
+									</li>
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Our Facilities</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-md-2">
-							<h2 class="heading footer-heading">PROGRAMS</h2>
-							<ul class="footer-menu">
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Our Signature Programs</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Our Signature Services</a>
-								</li>
-							</ul>
+						<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="footer-divider">
+								<h2 class="heading footer-heading footer-toggle" data-shown="no">PROGRAMS</h2>
+								<ul class="footer-menu">
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Our Signature Programs</a>
+									</li>
+									<li class="footer-menu__item">
+										<a class="footer-menu__link" href="#">Our Signature Services</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-md-2">
-							<h2 class="heading footer-heading">PRESS</h2>
-							<ul class="footer-menu">
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Press One</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Press Two</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Press Three</a>
-								</li>
-							</ul>
+						<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="footer-divider">
+								<h2 class="heading footer-heading"><a class="footer-link" href="#">PRESS</a></h2>
+							</div>
 						</div>
-						<div class="col-md-2">
-							<h2 class="heading footer-heading">MY ACCOUNT</h2>
-							<ul class="footer-menu">
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Account One</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Account Two</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Account Three</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Account Four</a>
-								</li>
-							</ul>
+						<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="footer-divider">
+								<h2 class="heading footer-heading"><a class="footer-link" href="#">MY ACCOUNT</a></h2>
+							</div>
 						</div>
-						<div class="col-md-2">
-							<h2 class="heading footer-heading">CAREERS</h2>
-							<ul class="footer-menu">
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Career One</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Career Two</a>
-								</li>
-							</ul>
+						<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="footer-divider">
+								<h2 class="heading footer-heading"><a class="footer-link" href="#">CAREERS</a></h2>
+							</div>
 						</div>
 					</nav>
 				</div>
@@ -124,7 +105,7 @@
 					</ul>
 				</div>
 			</div>
-			<hr class="footer-line">
+			<hr class="footer-line hidden-xs hidden-sm">
 			<div class="container">
 				<div class="footer-copyright">
 					Copyright 2016. Life Science. All Rights Reserved.

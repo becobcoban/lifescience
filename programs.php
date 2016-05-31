@@ -19,7 +19,7 @@
 			<h1 class="heading">SIGNATURE PROGRAMS</h1>
 			<p>Achieve your health goals by subscribing to holistic programs specially designed by our Functional Medicine experts.</p>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--food"></i>
 						<div class="programs-content-title">Core Nutrition Program</div>
@@ -29,7 +29,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--genomics"></i>
 						<div class="programs-content-title">Inherited Disease Screening & Intervention</div>
@@ -39,7 +39,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--detox"></i>
 						<div class="programs-content-title">Reverse Chronic Diseease</div>
@@ -49,7 +49,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--weight"></i>
 						<div class="programs-content-title">Weight and Metabolic Management</div>
@@ -66,7 +66,7 @@
 			<h1 class="heading">DIAGNOSTIC TESTS</h1>
 			<p>Take cutting edge tests and get to know your body at a cellular level.</p>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--environment"></i>
 						<div class="programs-content-title">Environmental Tests</div>
@@ -76,7 +76,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--gene"></i>
 						<div class="programs-content-title">Gene Tests</div>
@@ -86,7 +86,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--gastro"></i>
 						<div class="programs-content-title">GI Immunology Tests</div>
@@ -96,7 +96,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--metabolic"></i>
 						<div class="programs-content-title">Metabolic Tests</div>
@@ -106,7 +106,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--nutrition"></i>
 						<div class="programs-content-title">Nutritional Tests</div>
@@ -123,7 +123,7 @@
 			<h1 class="heading">HEALTH AND WELLNESS SERVICES</h1>
 			<p>Take cutting edge tests and get to know your body at a cellular level.</p>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--medicine"></i>
 						<div class="programs-content-title">Functional Medicine Consultation</div>
@@ -133,7 +133,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--oxygen"></i>
 						<div class="programs-content-title">Hyperbaric Oxygen Treatment (HBOT)</div>
@@ -143,7 +143,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--kinesis"></i>
 						<div class="programs-content-title">Kinesis and Muscoskeletal Rehab</div>
@@ -153,7 +153,7 @@
 						<a class="btn programs-content-btn" href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="programs-content-item">
 						<i class="medical-icon medical-icon--health"></i>
 						<div class="programs-content-title">Nutrition Coaching</div>

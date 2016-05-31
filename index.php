@@ -2,6 +2,10 @@
 
 <main class="home">
 	<div class="home-banner">
+		<div class="home-banner-text">
+			<h1 class="heading home-banner-heading">Take Charge of Your Health Today</h1>
+			<div class="home-banner-description">LifeScience offers you an advanced approach to health and wellness through the LifeScience PRO System.</div>
+		</div>
 	</div><!-- /.home-banner -->
 
 	<div class="home-survey">
@@ -12,19 +16,19 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="home-survey-answer">
-							<i class="home-survey-icon" style="background-image: url('public/img/survey-jump.png');"></i>
+							<i class="home-survey-icon hidden-xs hidden-sm" style="background-image: url('public/img/survey-jump.png');"></i>
 							I work out daily.
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="home-survey-answer">
-							<i class="home-survey-icon" style="background-image: url('public/img/survey-walk.png');"></i>
+							<i class="home-survey-icon hidden-xs hidden-sm" style="background-image: url('public/img/survey-walk.png');"></i>
 							I try to bike or wallk whenever I can
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="home-survey-answer">
-							<i class="home-survey-icon" style="background-image: url('public/img/survey-desk.png');"></i>
+							<i class="home-survey-icon hidden-xs hidden-sm" style="background-image: url('public/img/survey-desk.png');"></i>
 							Barely. I’m married to my work desk.
 						</div>
 					</div>
@@ -39,7 +43,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="home-about-video">
-						<iframe width="100%" height="390" src="https://www.youtube.com/embed/XB9yGsNoj_0" frameborder="0" allowfullscreen></iframe>
+						<iframe width="100%" src="https://www.youtube.com/embed/XB9yGsNoj_0" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -111,28 +115,46 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="home-team-member">
-						<img class="home-team-thumbnail" src="public/img/team-member1.jpg" alt="Jane Doe">
-						<div class="home-team-name">Jane Doe</div>
-						<div class="home-team-description">
-							<q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</q>
+						<div class="row">
+							<div class="col-xs-4 col-sm-2 col-md-12">
+								<img class="home-team-thumbnail" src="public/img/team-member1.jpg" alt="Jane Doe">
+							</div>
+							<div class="col-xs-8 col-sm-10 col-md-12">
+								<div class="home-team-name">Jane Doe</div>
+								<div class="home-team-description">
+									<q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</q>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="home-team-member">
-						<img class="home-team-thumbnail" src="public/img/team-member2.jpg" alt="John Doe">
-						<div class="home-team-name">John Doe</div>
-						<div class="home-team-description">
-							<q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</q>
+						<div class="row">
+							<div class="col-xs-4 col-sm-2 col-md-12">
+								<img class="home-team-thumbnail" src="public/img/team-member2.jpg" alt="John Doe">
+							</div>
+							<div class="col-xs-8 col-sm-10 col-md-12">
+								<div class="home-team-name">John Doe</div>
+								<div class="home-team-description">
+									<q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</q>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="home-team-member">
-						<img class="home-team-thumbnail" src="public/img/team-member3.jpg" alt="Jane Doe">
-						<div class="home-team-name">Jane Doe</div>
-						<div class="home-team-description">
-							<q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</q>
+						<div class="row">
+							<div class="col-xs-4 col-sm-2 col-md-12">
+								<img class="home-team-thumbnail" src="public/img/team-member3.jpg" alt="Jane Doe">
+							</div>
+							<div class="col-xs-8 col-sm-10 col-md-12">
+								<div class="home-team-name">Jane Doe</div>
+								<div class="home-team-description">
+									<q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</q>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -145,7 +167,7 @@
 			<h1 class="heading home-appointment-heading">BOOK AN APPOINTMENT</h1>
 			<div class="row">
 				<form class="form form--appointment"  action="#">
-					<div class="col-md-12 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-12 form-group">
 						<label class="form-label" for="title">Title</label>
 						<select class="form-control form-control--xs" name="title" id="title">
 							<option value="">Choose...</option>
@@ -153,28 +175,28 @@
 							<option value="ms">Ms.</option>
 						</select>
 					</div>
-					<div class="col-md-6 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-6 form-group">
 						<label class="form-label" for="first_name">First Name</label>
 						<input type="text" class="form-control" name="first_name" id="first_name">
 					</div>
-					<div class="col-md-6 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-6 form-group">
 						<label class="form-label" for="last_name">Last Name</label>
 						<input type="text" class="form-control" name="last_name" id="last_name">
 					</div>
-					<div class="col-md-6 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-6 form-group">
 						<label class="form-label" for="contact_number">Contact Number</label>
 						<input type="text" class="form-control" name="contact_number" id="contact_number">
 					</div>
-					<div class="col-md-6 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-6 form-group">
 						<label class="form-label" for="email">E-mail</label>
 						<input type="text" class="form-control" name="email" id="email">
 					</div>
-					<div class="col-md-6 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-6 form-group">
 						<label class="form-label" for="preferred_date">Preferred Date</label>
 						<input type="text" class="form-control" name="preferred_date" id="preferred_date">
 						<span class="form-control-calendar"></span>
 					</div>
-					<div class="col-md-6 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-6 form-group">
 						<label class="form-label" for="preferred_time">Preferred Time</label>
 						<select class="form-control" name="preferred_time" id="preferred_time">
 							<option value="">Choose...</option>
@@ -191,7 +213,7 @@
 							<option value="06:00 - 07:00 pm">06:00 - 07:00 pm</option>
 						</select>
 					</div>
-					<div class="col-md-12 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-12 form-group">
 						<label class="form-label" for="service">Service</label>
 						<select class="form-control" name="service" id="service">
 							<option value="">Choose...</option>
@@ -210,11 +232,11 @@
 							<option value="Nutrition Coaching">Nutrition Coaching</option>
 						</select>
 					</div>
-					<div class="col-md-12 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-12 form-group">
 						<label class="form-label" for="message">Message</label>
 						<textarea class="form-control" name="message" id="message" cols="30" rows="8"></textarea>
 					</div>
-					<div class="col-md-12 form-group">
+					<div class="col-xs-12 col-sm-12 col-md-12 form-group">
 						<button class="btn btn--send" id="send">SEND</button>
 					</div>
 				</form>

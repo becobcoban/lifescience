@@ -58,21 +58,26 @@
 				</div>
 				<div class="col-md-8">
 					<form class="form form--inquiries" action="">
-						<div class="col-md-6 form-group">
-							<label class="form-label" for="first_name">First Name</label>
-							<input type="text" class="form-control" id="first_name" name="first_name">
-						</div>
-						<div class="col-md-6 form-group">
-							<label class="form-label" for="last_name">Last Name</label>
-							<input type="text" class="form-control" id="last_name" name="last_name">
-						</div>
-						<div class="col-md-12 form-group">
-							<label class="form-label" for="email">E-mail</label>
-							<input type="text" class="form-control" id="email" name="email">
-						</div>
-						<div class="col-md-12 form-group">
-							<label class="form-label" for="message">Message</label>
-							<textarea class="form-control" name="message" id="message" cols="30" rows="8"></textarea>
+						<div class="row">
+							<div class="col-sm-6 col-md-6 form-group">
+								<label class="form-label" for="first_name">First Name</label>
+								<input type="text" class="form-control" id="first_name" name="first_name">
+							</div>
+							<div class="col-sm-6 col-md-6 form-group">
+								<label class="form-label" for="last_name">Last Name</label>
+								<input type="text" class="form-control" id="last_name" name="last_name">
+							</div>
+							<div class="col-md-12 form-group">
+								<label class="form-label" for="email">E-mail</label>
+								<input type="text" class="form-control" id="email" name="email">
+							</div>
+							<div class="col-md-12 form-group">
+								<label class="form-label" for="message">Message</label>
+								<textarea class="form-control" name="message" id="message" cols="30" rows="8"></textarea>
+							</div>
+							<div class="col-md-12 form-group">
+								<button class="btn btn--inquire" id="inquire">SEND</button>
+							</div>
 						</div>
 					</form>
 				</div>
